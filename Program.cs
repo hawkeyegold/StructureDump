@@ -26,8 +26,9 @@ internal class Program {
 		Directory.CreateDirectory(outputDir);
 
 		// Timestamped filename
+		string projectName = new DirectoryInfo(root).Name;
 		string timestamp = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
-		string outputPath = Path.Combine(outputDir, $"structure_dump_{timestamp}.txt");
+		string outputPath = Path.Combine(outputDir, $"{projectName}_structure_dump_{timestamp}.txt");
 		Console.WriteLine($"Output file path: {outputPath}");
 
 		var sb = new StringBuilder();
