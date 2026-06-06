@@ -1,0 +1,9 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# MgcbLauncher generated files
+patch_error.txt
+mgcb-editor-patched.exe

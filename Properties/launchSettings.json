@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "StructureDump": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\_dev\\_projects\\_monoProjects\\Lance2",
+      "workingDirectory": "C:\\_dev\\_projects\\StructureDump"
+    }
+  }
+}
